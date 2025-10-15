@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C3 Bonus Page — Community Commission Challenge</title>
+<style>
+  :root{
+    --bg:#f7f7f8;
+    --fg:#0f172a;
+    --muted:#475569;
+    --card:#ffffff;
+    --accent:#0ea5e9;
+    --accent-dark:#0284c7;
+    --band:#0f172a;
+    --band-fg:#ffffff;
+    --border:#e5e7eb;
+    --ribbon:#10b981;
+    --value:#111827;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    line-height:1.5;
+  }
+  .wrap{ max-width:1100px; margin:0 auto; padding:24px 16px 40px;}
+  header{ text-align:center; margin:20px 0 10px;}
+  h1{ font-size:clamp(1.6rem, 2.5vw, 2.4rem); margin:0 0 8px;}
+  .prehead{ color:var(--accent-dark); font-weight:700; text-transform:uppercase; letter-spacing:.5px; margin-bottom:8px; display:block;}
+  .subhead{ color:var(--muted); font-size:clamp(1rem, 1.5vw, 1.1rem); margin-bottom:18px;}
+
+  /* Video */
+  .video-wrap{
+    max-width:960px; margin:0 auto 14px;
+    aspect-ratio:16/9;
+    background:linear-gradient(135deg,#e2e8f0,#cbd5e1);
+    border:1px solid var(--border);
+    border-radius:14px; overflow:hidden;
+  }
+  .video-wrap iframe{ width:100%; height:100%; border:0; display:block; }
+
+  /* CTA */
+  .cta{ text-align:center; margin:14px 0 34px; }
+  .cta a{
+    display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-weight:700;
+    padding:14px 22px; border-radius:10px;
+    transition:background .15s ease, transform .08s ease-in-out;
+  }
+  .cta a:hover{ background:var(--accent-dark);}
+  .cta a:active{ transform:translateY(1px);}
+
+  /* Bonuses grid – 2 columns + full-width last card */
+  .grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:18px;
+    margin:8px 0 28px;
+  }
+  @media (min-width:720px){
+    .grid{ grid-template-columns:repeat(2,1fr); }
+  }
+
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:14px;
+    padding:22px 22px 20px; position:relative; overflow:hidden;
+  }
+  .card.full{ grid-column:1 / -1; }
+  .ribbon{
+    position:absolute; top:12px; right:-46px;
+    background:var(--ribbon); color:#fff; font-size:.78rem; font-weight:700;
+    transform:rotate(35deg); padding:6px 56px; box-shadow:0 6px 16px rgba(16,185,129,.25);
+  }
+  .card h3{ margin:6px 0 8px; font-size:1.1rem;}
+  .card p{ margin:0 0 10px; color:var(--muted); font-size:.98rem;}
+  .card ul{ margin:0 0 10px 18px; padding:0;}
+  .card li{ margin:6px 0; color:#1f2937; }
+  .value{
+    display:inline-block; margin-top:6px; background:#fff3cd; color:var(--value);
+    border:1px solid #facc15; border-radius:999px; font-weight:700; font-size:.9rem; padding:6px 10px;
+  }
+
+  /* Value band */
+  .band{
+    border-radius:14px; background:var(--band); color:var(--band-fg);
+    padding:18px 16px; text-align:center; margin:8px 0 18px;
+  }
+  .band strong{ font-size:clamp(1.05rem, 1.8vw, 1.25rem); }
+
+  /* FAQ */
+  .faq{ margin:8px 0 28px;}
+  .faq h2{ font-size:1.3rem; margin:0 0 10px; text-align:center;}
+  details{ background:#fff; border:1px solid var(--border); border-radius:10px; padding:10px 14px; margin:8px 0;}
+  summary{ cursor:pointer; font-weight:700; list-style:none; }
+  summary::-webkit-details-marker{ display:none; }
+  details p{ margin:10px 0 0; color:var(--muted);}
+
+  footer{
+    border-top:1px solid var(--border); color:var(--muted); font-size:.9rem;
+    padding-top:14px; text-align:center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="prehead">Brand-New: A Live Affiliate Challenge Where YOU Decide Everything</span>
+      <h1>You Call The Shots And I'll Build a Full Affiliate Campaign From Scratch!</h1>
+      <p class="subhead">You vote for the offer. You vote for the traffic source. I'll build the campaign live, share every step, and hand it over when it wins.</p>
+    </header>
+
+    <!-- Hero Video (Updated Vimeo embed) -->
+    <section aria-label="Overview video">
+      <div class="video-wrap">
+        <iframe src="https://player.vimeo.com/video/1117724991?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="948" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Kevbot Bonuses - 3 - Ai Voiceover Lesson"></iframe>
+      </div>
+      <div class="cta">
+        <a href="https://warriorplus.com/o2/a/bw6wf93/0" aria-label="Join Bonus Builder Ai Now + 7 Bonuses">Join Bonus Builder Ai Now + 7 Bonuses</a>
+      </div>
+    </section>
+
+    <!-- Bonuses Grid -->
+    <section aria-label="Included bonuses">
+      <div class="grid">
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #1: Community Commission Challenge (C3)</h3>
+          <p>Join the live community challenge—vote the product, vote the traffic, and watch me build and scale the campaign step by step.</p>
+          <ul>
+            <li>Community voting & interaction</li>
+            <li>Transparent campaign tracking</li>
+            <li>Real-time insights</li>
+          </ul>
+          <span class="value">Value: $97</span>
+        </article>
+
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #2: The Free-Traffic Arsenal</h3>
+          <p>Five free-traffic strategies revealed—watch how I build traffic momentum for any offer without paying a cent for ads.</p>
+          <ul>
+            <li>Platform-specific methods</li>
+            <li>Hook templates and cadence</li>
+            <li>Organic traffic examples</li>
+          </ul>
+          <span class="value">Value: $97</span>
+        </article>
+
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #3: The Campaign Command Center</h3>
+          <p>Get private Thinkific access to every test, result, and tweak I make—see what works and what doesn’t in real time.</p>
+          <ul>
+            <li>Behind-the-scenes replays</li>
+            <li>Optimization breakdowns</li>
+            <li>Copy and creative examples</li>
+          </ul>
+          <span class="value">Value: $147</span>
+        </article>
+
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #4: The Monetization Blueprint</h3>
+          <p>Learn how to turn attention into commissions with simple funnels, follow-up sequences, and proven monetization paths.</p>
+          <ul>
+            <li>Bridge and email templates</li>
+            <li>Direct vs list-first testing</li>
+            <li>Conversion checkpoints</li>
+          </ul>
+          <span class="value">Value: $147</span>
+        </article>
+
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #5: The Replication System</h3>
+          <p>Copy my process from start to finish using this step-by-step roadmap so you can run your own profitable campaigns.</p>
+          <ul>
+            <li>Simple action checklist</li>
+            <li>Repeatable workflow</li>
+            <li>Scalable system</li>
+          </ul>
+          <span class="value">Value: $47</span>
+        </article>
+
+        <article class="card">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #6: The Zero-Cost Hosting Method</h3>
+          <p>Host all of your Bonus Builder Ai pages for free using the exact setup that powers this very page—no paid hosting needed.</p>
+          <ul>
+            <li>Free hosting walkthrough</li>
+            <li>Instant publishing setup</li>
+            <li>No subscriptions or tech barriers</li>
+          </ul>
+          <span class="value">Value: $47</span>
+        </article>
+
+        <article class="card full">
+          <div class="ribbon">Included Free</div>
+          <h3>BONUS #7: The Campaign Handover Giveaway</h3>
+          <p>When the campaign hits profitability, one member wins the entire working asset—domain, pages, and data included.</p>
+          <ul>
+            <li>Community-voted winner</li>
+            <li>Asset transfer and setup call</li>
+            <li>Ready-to-scale campaign</li>
+          </ul>
+          <span class="value">Value: $997</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Value Band with CTA -->
+    <section class="band" role="note">
+      <strong>Total Real Value: $1,579 — Yours Free with Bonus Builder Ai</strong>
+    </section>
+    <div class="cta">
+      <a href="https://warriorplus.com/o2/a/bw6wf93/0" aria-label="YES! I want Bonus Builder Ai + all 7 bonuses now">YES! I want Bonus Builder Ai + all 7 bonuses now</a>
+    </div>
+
+    <!-- FAQ -->
+    <section class="faq" aria-label="Frequently Asked Questions">
+      <h2>FAQ</h2>
+
+      <!-- (Existing mixed FAQ list retained from index6.html) -->
+      <details><summary>Do I need traffic before using Bonus Builder AI?</summary>
+        <p>No. Bonus Builder AI is your conversion engine. In C3 you’ll see exactly how I generate free traffic from scratch and plug it into a page that converts.</p>
+      </details>
+      <details><summary>How do the votes work?</summary>
+        <p>You’ll access a private voting page inside Thinkific to choose the ClickBank offer and a single traffic channel (e.g., YouTube Shorts, TikTok, Pinterest). Results are announced before the build starts.</p>
+      </details>
+      <details><summary>What if I’m brand new to affiliate marketing?</summary>
+        <p>Perfect. The tool creates your bonus pages and copy in minutes. The challenge shows you exactly how to launch, get traffic, and optimize without prior experience.</p>
+      </details>
+      <details><summary>When does monetization start?</summary>
+        <p>After we establish reliable traffic pockets. Then we test direct-to-offer, list-first, and hybrid flows and keep what converts best for the chosen offer + channel.</p>
+      </details>
+      <details><summary>Will this work with WarriorPlus, ClickBank, or JVZoo?</summary>
+        <p>Yes. Paste the sales page URL and Bonus Builder AI generates a unique bonus stack and page tailored to that offer—across all major affiliate networks.</p>
+      </details>
+      <details><summary>Who wins the finished campaign?</summary>
+        <p>Once performance hits the handover criteria, members vote for a recipient (no self-votes). The winner receives the assets and a short onboarding call.</p>
+      </details>
+      <details><summary>Do I need a website or paid hosting?</summary>
+        <p>No. The “Zero-Cost Hosting Method” bonus shows how to host your pages for free—the same stack running this page—so you can publish unlimited pages at $0.</p>
+      </details>
+      <details><summary>How do I get traffic to my bonus pages?</summary>
+        <p>You’ll get my Free-Traffic Arsenal: five no-cost channels demonstrated live (YouTube, Pinterest, Quora, Facebook Groups, TikTok) with hooks, cadence, and tracking.</p>
+      </details>
+      <details><summary>How fast can I have my first bonus page live?</summary>
+        <p>Minutes. Paste the offer URL, let the AI generate your bonuses and page, tweak if you like, and publish. Even beginners can be live within 15 minutes.</p>
+      </details>
+      <details><summary>What do I get access to during the challenge?</summary>
+        <p>Strategy docs, page builds, recap videos, live dashboards, and optimization notes—everything organized inside Thinkific for step-by-step clarity.</p>
+      </details>
+      <details><summary>What makes this different from PLR bonuses or generic page builders?</summary>
+        <p>Bonus Builder AI creates hyper-relevant, unique bonuses from the actual sales page—so your offer stands out and converts without recycled PLR.</p>
+      </details>
+      <details><summary>Do I need to show my face or make videos?</summary>
+        <p>No. We’ll cover faceless content and AI-generated creatives so you can remain anonymous while still getting clicks and commissions.</p>
+      </details>
+      <details><summary>What if I don’t get results?</summary>
+        <p>Kevin provides a 30-day money-back guarantee on Bonus Builder AI. Follow the challenge steps and free-traffic methods to give yourself the best shot at results.</p>
+      </details>
+      <details><summary>What if the campaign doesn’t hit the handover criteria?</summary>
+        <p>You’ll still receive all replays, assets, and the Replication notes. If handover isn’t triggered within the timeline, an alternate perk will be announced in Thinkific.</p>
+      </details>
+    </section>
+
+    <!-- CTA under FAQ -->
+    <div class="cta">
+      <a href="https://warriorplus.com/o2/a/bw6wf93/0" aria-label="Claim your access now">Claim Your Access</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Disclaimer: This page shares a bonus experience available when you purchase Bonus Builder Ai through our link. Results vary and are not guaranteed.</p>
+    </footer>
+  </div>
+</body>
+</html>
